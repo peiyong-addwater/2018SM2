@@ -1,0 +1,3 @@
+"No.","Time","Source","Destination","Protocol","Length","Info"
+"4","0.002199","10.12.10.139","www-vip2.unimelb.edu.au","HTTP","214","GET / HTTP/1.1 "
+"8","0.048443","www-vip2.unimelb.edu.au","10.12.10.139","HTTP","71","HTTP/1.1 301 Moved Permanently  (text/html)"

@@ -1,0 +1,11 @@
+1. Documentation is poor.
+2. Too many if clauses in the method Fifteens and Runs, which makes 
+   it extremely hard to debug. Also, the conditions in the if clause
+   is too long.
+3. The code is barely readable.
+4. Poor organization.
+5. Process-oriented programming instead of object-oriented. 
+5. Code abstraction is poor.
+6. Indentation is chaos. 
+7. Switch should be used in methods getValue and toNumber instead if...
+   else if... clause.

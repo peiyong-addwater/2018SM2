@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>ass2</string>
+			<key>host</key>
+			<string>localhost</string>
+			<key>kcid</key>
+			<string>-1274095694139282287</string>
+			<key>name</key>
+			<string>local</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPSocketConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>latin1</string>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK8QDwcIFRYXGBkdJCouMjU4PFUkbnVs
+			bNMJCgsMEBRXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6MNDg+A
+			AoADgASjERITgAWABoAIgA5UdHlwZVRyb3dzVGtleXNfECZTZWxl
+			Y3Rpb25EZXRhaWxUeXBlUHJpbWFyeUtleWVkRGV0YWlsc9MJCgsa
+			GxygoIAH0h4fICFaJGNsYXNzbmFtZVgkY2xhc3Nlc18QE05TTXV0
+			YWJsZURpY3Rpb25hcnmjICIjXE5TRGljdGlvbmFyeVhOU09iamVj
+			dNIKCyUpoyYnKIAJgAuADIAN0gsrLC1ZTlMuc3RyaW5ngApXU3R1
+			ZGVudNIeHy8wXxAPTlNNdXRhYmxlU3RyaW5noy8xI1hOU1N0cmlu
+			Z9ILKyw0gApTZGF50gsrLDeAClRob3Vy0h4fOTpeTlNNdXRhYmxl
+			QXJyYXmjOTsjV05TQXJyYXnSHh8iPaIiI18QD05TS2V5ZWRBcmNo
+			aXZlctFAQVRkYXRhgAEACAARABoAIwAtADIANwBJAE8AVgBeAGkA
+			cAB0AHYAeAB6AH4AgACCAIQAhgCLAJAAlQC+AMUAxgDHAMkAzgDZ
+			AOIA+AD8AQkBEgEXARsBHQEfASEBIwEoATIBNAE8AUEBUwFXAWAB
+			ZQFnAWsBcAFyAXcBfAGLAY8BlwGcAZ8BsQG0AbkAAAAAAAACAQAA
+			AAAAAABCAAAAAAAAAAAAAAAAAAABuw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {694, 450}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>-- Question One
+SELECT `givenName`, `familyName` FROM `Student`
+ORDER BY LENGTH(`givenName`) + LENGTH(`familyName`) DESC
+LIMIT 1;
+
+-- Question Two
+SELECT `givenName`, `familyName` FROM `Student`
+LEFT JOIN `Availability` ON `Student`.`id` = `Availability`.`Student`
+WHERE `Availability`.`Student` IS NULL;
+
+-- Question Three
+SELECT `Student`.* FROM `Student`, `Availability`
+WHERE `Student`.`id` = `Availability`.`Student` 
+AND `Availability`.`hour` = 10
+AND `Availability`.`day` = 'Wed'; 
+
+-- Question Four
+SELECT `Student`.`givenName`, `Student`.`familyName`, `Groups`.`name` AS 'groupName'
+FROM `Student` LEFT OUTER JOIN `StudentInGroup`
+ON `Student`.`id` = `StudentInGroup`.`StudentId`
+LEFT OUTER JOIN `Groups` 
+ON `StudentInGroup`.`groupId` = `Groups`.`id`;
+
+-- Question Five
+SELECT `groupId` AS 'ID of the group', COUNT(`groupId`) AS 'number of students'
+FROM `StudentInGroup`
+GROUP BY `StudentInGroup`.`groupId` HAVING (COUNT(`StudentInGroup`.`groupId`) &gt; 3);
+
+-- Question Six
+SELECT IF(
+(SELECT `description` 
+FROM `Student` INNER JOIN `Availability` ON `Student`.`id` = `Availability`.`Student`  
+INNER JOIN `Calendar` ON `Availability`.`day` = `Calendar`.`day` AND `Availability`.`hour` = `Calendar`.`hour` 
+WHERE `givenName` = 'Alice' AND `familyName` = 'Smith') = 'lunch', 'yes', 'no')
+AS 'Is Alice Smith free at lunch on Wednesdays';
+
+-- Question Seven
+SELECT `Availability`.`day`, `Availability`.`hour` FROM `Availability` 
+WHERE `Availability`.`Student` = 10001
+AND (`Availability`.`day`,`Availability`.`hour`)
+IN 
+(SELECT `Availability`.`day`, `Availability`.`hour` FROM `Availability` 
+WHERE `Availability`.`Student` = 10001);
+
+-- Question Eight
+SELECT `groupId`, `givenName`, `familyName` FROM
+(SELECT
+`groupId`, `givenName`, `familyName` 
+FROM `StudentInGroup` LEFT JOIN `Student` ON `StudentInGroup`.`StudentId`=`Student`.`id`
+ORDER BY `groupId`, `familyName` DESC)
+AS t1
+LEFT JOIN 
+(SELECT `groupId` AS gID, `givenName` AS ggN, `familyName` AS fN
+FROM `StudentInGroup` LEFT JOIN `Student` ON `StudentInGroup`.`StudentId`=`Student`.`id`
+ORDER BY `groupId`, `familyName` DESC)
+AS t2
+ON t1.`groupId` = t2.`gID` AND t1.`familyName` &gt; t2.`fN`
+WHERE t2.`gID` IS NULL
+ORDER BY 1;
+
+-- Question Nine
+SELECT DISTINCT `Student`.`id`, `Student`.`givenName`, `Student`.`familyName`
+FROM `Student` INNER JOIN `Availability` ON `Student`.`id`=`Availability`.`Student`
+WHERE `Availability`.`day` = 'Wed' 
+AND (`Availability`.`hour` BETWEEN 10 AND 12);
+
+-- Question Ten
+SELECT IF(
+(SELECT COUNT(*) FROM `StudentInGroup` INNER JOIN `Groups` ON `StudentInGroup`.`groupId` = `Groups`.`id` WHERE `Groups`.`name`='WeLoveDb')
+ = 
+ (SELECT COUNT(*) FROM `StudentInGroup`  INNER JOIN `Groups` ON `StudentInGroup`.`groupId` = `Groups`.`id` 
+ INNER JOIN `Availability` ON `Availability`.`Student`=`StudentInGroup`.`StudentId`
+ WHERE `Groups`.`name`='WeLoveDb' AND `Availability`.`day`='Wed' AND `Availability`.`hour`=10),
+'yes',
+'no'
+)
+AS 'Are the members of \'WeLoveDb\' all free on Wednesday at 10am?';</string>
+			<key>table</key>
+			<string>Availability</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>133</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>-- Question Ten
+SELECT IF(
+(SELECT COUNT(*) FROM `StudentInGroup` INNER JOIN `Groups` ON `StudentInGroup`.`groupId` = `Groups`.`id` WHERE `Groups`.`name`='WeLoveDb')
+ = 
+ (SELECT COUNT(*) FROM `StudentInGroup`  INNER JOIN `Groups` ON `StudentInGroup`.`groupId` = `Groups`.`id` 
+ INNER JOIN `Availability` ON `Availability`.`Student`=`StudentInGroup`.`StudentId`
+ WHERE `Groups`.`name`='WeLoveDb' AND `Availability`.`day`='Wed' AND `Availability`.`hour`=10),
+'yes',
+'no'
+)
+AS 'Are the members of \'WeLoveDb\' all free on Wednesday at 10am?'</string>
+		<string>-- Question Nine
+SELECT DISTINCT `Student`.`id`, `Student`.`givenName`, `Student`.`familyName`
+FROM `Student` INNER JOIN `Availability` ON `Student`.`id`=`Availability`.`Student`
+WHERE `Availability`.`day` = 'Wed' 
+AND (`Availability`.`hour` BETWEEN 10 AND 12)</string>
+		<string>-- Question Eight
+SELECT `groupId`, `givenName`, `familyName` FROM
+(SELECT
+`groupId`, `givenName`, `familyName` 
+FROM `StudentInGroup` LEFT JOIN `Student` ON `StudentInGroup`.`StudentId`=`Student`.`id`
+ORDER BY `groupId`, `familyName` DESC)
+AS t1
+LEFT JOIN 
+(SELECT `groupId` AS gID, `givenName` AS ggN, `familyName` AS fN
+FROM `StudentInGroup` LEFT JOIN `Student` ON `StudentInGroup`.`StudentId`=`Student`.`id`
+ORDER BY `groupId`, `familyName` DESC)
+AS t2
+ON t1.`groupId` = t2.`gID` AND t1.`familyName` &gt; t2.`fN`
+WHERE t2.`gID` IS NULL
+ORDER BY 1</string>
+		<string>-- Question Seven
+SELECT `Availability`.`day`, `Availability`.`hour` FROM `Availability` 
+WHERE `Availability`.`Student` = 10001
+AND (`Availability`.`day`,`Availability`.`hour`)
+IN 
+(SELECT `Availability`.`day`, `Availability`.`hour` FROM `Availability` 
+WHERE `Availability`.`Student` = 10001)</string>
+		<string>-- Question Six
+SELECT IF(
+(SELECT `description` 
+FROM `Student` INNER JOIN `Availability` ON `Student`.`id` = `Availability`.`Student`  
+INNER JOIN `Calendar` ON `Availability`.`day` = `Calendar`.`day` AND `Availability`.`hour` = `Calendar`.`hour` 
+WHERE `givenName` = 'Alice' AND `familyName` = 'Smith') = 'lunch', 'yes', 'no')
+AS 'Is Alice Smith free at lunch on Wednesdays'</string>
+		<string>-- Question Five
+SELECT `groupId` AS 'ID of the group', COUNT(`groupId`) AS 'number of students'
+FROM `StudentInGroup`
+GROUP BY `StudentInGroup`.`groupId` HAVING (COUNT(`StudentInGroup`.`groupId`) &gt; 3)</string>
+		<string>-- Question Four
+SELECT `Student`.`givenName`, `Student`.`familyName`, `Groups`.`name` AS 'groupName'
+FROM `Student` LEFT OUTER JOIN `StudentInGroup`
+ON `Student`.`id` = `StudentInGroup`.`StudentId`
+LEFT OUTER JOIN `Groups` 
+ON `StudentInGroup`.`groupId` = `Groups`.`id`</string>
+		<string>-- Question Three
+SELECT `Student`.* FROM `Student`, `Availability`
+WHERE `Student`.`id` = `Availability`.`Student` 
+AND `Availability`.`hour` = 10
+AND `Availability`.`day` = 'Wed'</string>
+		<string>-- Question Two
+SELECT `givenName`, `familyName` FROM `Student`
+LEFT JOIN `Availability` ON `Student`.`id` = `Availability`.`Student`
+WHERE `Availability`.`Student` IS NULL</string>
+		<string>-- Question One
+SELECT `givenName`, `familyName` FROM `Student`
+ORDER BY LENGTH(`givenName`) + LENGTH(`familyName`) DESC
+LIMIT 1</string>
+		<string>SELECT `groupId`, `givenName`,`familyName`
+FROM (SELECT `groupId`, `givenName`, `familyName` 
+FROM `StudentInGroup` LEFT JOIN `Student` ON `StudentInGroup`.`StudentId`=`Student`.`id`
+ORDER BY `groupId`, `familyName` DESC
+) AS D
+GROUP BY `groupId`</string>
+		<string>SELECT `groupId`, `givenName`,`familyName`
+FROM (SELECT `groupId`, `givenName`, `familyName` 
+FROM `StudentInGroup` LEFT JOIN `Student` ON `StudentInGroup`.`StudentId`=`Student`.`id`
+ORDER BY `groupId`, `familyName` DESC
+) AS D</string>
+		<string>-- Question Nine
+SELECT DISTINCT `Student`.`id`, `Student`.`givenName`, `Student`.`familyName`
+FROM `Student` INNER JOIN `Availability` ON `Student`.`id`=`Availability`.`Student`
+WHERE `Availability`.`day` = 'Wed' 
+AND `Availability`.`hour` BETWEEN 10 AND 12</string>
+		<string>-- Question Nine
+SELECT `Student`.`id`, `Student`.`givenName`, `Student`.`familyName`
+FROM `Student` INNER JOIN `Availability` ON `Student`.`id`=`Availability`.`Student`
+WHERE `Availability`.`day` = 'Wed' 
+AND `Availability`.`hour` BETWEEN 10 AND 12</string>
+		<string>-- Question Nine
+SELECT `Student`.`id`, `Student`.`givenName`, `Student`.`familyName`
+FROM `Student` INNER JOIN `Availability` ON `Student`.`id`=`Availability`.`Student`
+WHERE `Availability`.`day` = 'Wed' 
+AND `Availability`.`hour` BETWEEN (10,12)</string>
+		<string>-- Question Eight !!!!!!!!!
+SELECT `groupId`, `givenName`, `familyName` FROM
+`StudentInGroup` INNER JOIN `Student`
+ON `StudentInGroup`.`StudentId` = `Student`.`id`
+-- WHERE `groupId`=`groupId`;
+ORDER BY `familyName`</string>
+		<string>-- Question Eight !!!!!!!!!
+SELECT `groupId`, `givenName`, `familyName` FROM
+`StudentInGroup` INNER JOIN `Student`
+ON `StudentInGroup`.`StudentId` = `Student`.`id`
+WHERE `groupId`=`groupId`</string>
+		<string>-- Question Eight
+SELECT `groupId`, `givenName`, `familyName` FROM
+`StudentInGroup` INNER JOIN `Student`
+ON `StudentInGroup`.`StudentId` = `Student`.`id`
+ORDER BY `familyName`
+WHERE `groupId`=`groupId`</string>
+		<string>-- Question Eight
+SELECT `groupId`, `givenName`, `familyName` FROM
+`StudentInGroup` INNER JOIN `Student`
+ON `StudentInGroup`.`StudentId` = `Student`.`id`
+WHERE `groupId`=`groupId`</string>
+		<string>-- Question Eight
+SELECT `groupId`, `givenName`, `familyName` FROM
+`StudentInGroup` INNER JOIN `Student`
+ON `StudentInGroup`.`StudentId` = `Student`.`id`</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.23</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

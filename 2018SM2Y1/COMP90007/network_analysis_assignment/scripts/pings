@@ -1,0 +1,502 @@
+starting ping
+iperf.he.net
+1st
+PING 9000.mtu.he.net (216.218.227.10): 56 data bytes
+64 bytes from 216.218.227.10: icmp_seq=0 ttl=53 time=162.977 ms
+64 bytes from 216.218.227.10: icmp_seq=1 ttl=53 time=164.527 ms
+64 bytes from 216.218.227.10: icmp_seq=2 ttl=53 time=162.551 ms
+64 bytes from 216.218.227.10: icmp_seq=3 ttl=53 time=162.914 ms
+64 bytes from 216.218.227.10: icmp_seq=4 ttl=53 time=162.851 ms
+64 bytes from 216.218.227.10: icmp_seq=5 ttl=53 time=162.739 ms
+64 bytes from 216.218.227.10: icmp_seq=6 ttl=53 time=163.012 ms
+64 bytes from 216.218.227.10: icmp_seq=7 ttl=53 time=163.251 ms
+64 bytes from 216.218.227.10: icmp_seq=8 ttl=53 time=162.477 ms
+64 bytes from 216.218.227.10: icmp_seq=9 ttl=53 time=163.362 ms
+
+--- 9000.mtu.he.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 162.477/163.066/164.527/0.553 ms
+2nd
+PING 9000.mtu.he.net (216.218.227.10): 56 data bytes
+64 bytes from 216.218.227.10: icmp_seq=0 ttl=53 time=163.088 ms
+64 bytes from 216.218.227.10: icmp_seq=1 ttl=53 time=163.324 ms
+64 bytes from 216.218.227.10: icmp_seq=2 ttl=53 time=162.990 ms
+64 bytes from 216.218.227.10: icmp_seq=3 ttl=53 time=163.029 ms
+64 bytes from 216.218.227.10: icmp_seq=4 ttl=53 time=162.765 ms
+64 bytes from 216.218.227.10: icmp_seq=5 ttl=53 time=166.694 ms
+64 bytes from 216.218.227.10: icmp_seq=6 ttl=53 time=163.509 ms
+64 bytes from 216.218.227.10: icmp_seq=7 ttl=53 time=163.013 ms
+64 bytes from 216.218.227.10: icmp_seq=8 ttl=53 time=162.747 ms
+64 bytes from 216.218.227.10: icmp_seq=9 ttl=53 time=162.889 ms
+
+--- 9000.mtu.he.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 162.747/163.405/166.694/1.119 ms
+3rd
+PING 9000.mtu.he.net (216.218.227.10): 56 data bytes
+64 bytes from 216.218.227.10: icmp_seq=0 ttl=53 time=162.676 ms
+64 bytes from 216.218.227.10: icmp_seq=1 ttl=53 time=163.251 ms
+64 bytes from 216.218.227.10: icmp_seq=2 ttl=53 time=163.170 ms
+64 bytes from 216.218.227.10: icmp_seq=3 ttl=53 time=163.521 ms
+64 bytes from 216.218.227.10: icmp_seq=4 ttl=53 time=162.451 ms
+64 bytes from 216.218.227.10: icmp_seq=5 ttl=53 time=162.711 ms
+64 bytes from 216.218.227.10: icmp_seq=6 ttl=53 time=162.766 ms
+64 bytes from 216.218.227.10: icmp_seq=7 ttl=53 time=163.602 ms
+64 bytes from 216.218.227.10: icmp_seq=8 ttl=53 time=162.817 ms
+64 bytes from 216.218.227.10: icmp_seq=9 ttl=53 time=164.871 ms
+
+--- 9000.mtu.he.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 162.451/163.184/164.871/0.668 ms
+--------------------------------------------
+bouygues.testdebit.info
+1st
+PING bouygues.testdebit.info (89.84.1.222): 56 data bytes
+64 bytes from 89.84.1.222: icmp_seq=0 ttl=47 time=302.814 ms
+64 bytes from 89.84.1.222: icmp_seq=1 ttl=47 time=302.681 ms
+64 bytes from 89.84.1.222: icmp_seq=2 ttl=47 time=302.786 ms
+64 bytes from 89.84.1.222: icmp_seq=3 ttl=47 time=303.050 ms
+64 bytes from 89.84.1.222: icmp_seq=4 ttl=47 time=302.969 ms
+64 bytes from 89.84.1.222: icmp_seq=5 ttl=47 time=303.685 ms
+64 bytes from 89.84.1.222: icmp_seq=6 ttl=47 time=302.488 ms
+64 bytes from 89.84.1.222: icmp_seq=7 ttl=47 time=302.396 ms
+64 bytes from 89.84.1.222: icmp_seq=8 ttl=47 time=302.587 ms
+64 bytes from 89.84.1.222: icmp_seq=9 ttl=47 time=304.737 ms
+
+--- bouygues.testdebit.info ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 302.396/303.019/304.737/0.668 ms
+2nd
+PING bouygues.testdebit.info (89.84.1.222): 56 data bytes
+64 bytes from 89.84.1.222: icmp_seq=0 ttl=47 time=302.502 ms
+64 bytes from 89.84.1.222: icmp_seq=1 ttl=47 time=303.118 ms
+64 bytes from 89.84.1.222: icmp_seq=2 ttl=47 time=302.996 ms
+64 bytes from 89.84.1.222: icmp_seq=3 ttl=47 time=302.997 ms
+64 bytes from 89.84.1.222: icmp_seq=4 ttl=47 time=302.805 ms
+64 bytes from 89.84.1.222: icmp_seq=5 ttl=47 time=302.770 ms
+64 bytes from 89.84.1.222: icmp_seq=6 ttl=47 time=302.236 ms
+64 bytes from 89.84.1.222: icmp_seq=7 ttl=47 time=302.320 ms
+64 bytes from 89.84.1.222: icmp_seq=8 ttl=47 time=302.654 ms
+64 bytes from 89.84.1.222: icmp_seq=9 ttl=47 time=302.586 ms
+
+--- bouygues.testdebit.info ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 302.236/302.698/303.118/0.279 ms
+3rd
+PING bouygues.testdebit.info (89.84.1.222): 56 data bytes
+64 bytes from 89.84.1.222: icmp_seq=0 ttl=47 time=303.099 ms
+64 bytes from 89.84.1.222: icmp_seq=1 ttl=47 time=303.099 ms
+64 bytes from 89.84.1.222: icmp_seq=2 ttl=47 time=302.552 ms
+64 bytes from 89.84.1.222: icmp_seq=3 ttl=47 time=302.357 ms
+64 bytes from 89.84.1.222: icmp_seq=4 ttl=47 time=302.612 ms
+64 bytes from 89.84.1.222: icmp_seq=5 ttl=47 time=302.278 ms
+64 bytes from 89.84.1.222: icmp_seq=6 ttl=47 time=303.191 ms
+64 bytes from 89.84.1.222: icmp_seq=7 ttl=47 time=302.780 ms
+64 bytes from 89.84.1.222: icmp_seq=8 ttl=47 time=302.915 ms
+64 bytes from 89.84.1.222: icmp_seq=9 ttl=47 time=302.367 ms
+
+--- bouygues.testdebit.info ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 302.278/302.725/303.191/0.323 ms
+--------------------------------------------
+ping.online.net
+1st
+PING ping.online.net (62.210.18.40): 56 data bytes
+64 bytes from 62.210.18.40: icmp_seq=0 ttl=48 time=301.693 ms
+64 bytes from 62.210.18.40: icmp_seq=1 ttl=48 time=301.802 ms
+64 bytes from 62.210.18.40: icmp_seq=2 ttl=48 time=301.067 ms
+64 bytes from 62.210.18.40: icmp_seq=3 ttl=48 time=300.828 ms
+64 bytes from 62.210.18.40: icmp_seq=4 ttl=48 time=300.939 ms
+64 bytes from 62.210.18.40: icmp_seq=5 ttl=48 time=300.825 ms
+64 bytes from 62.210.18.40: icmp_seq=6 ttl=48 time=301.358 ms
+64 bytes from 62.210.18.40: icmp_seq=7 ttl=48 time=300.936 ms
+64 bytes from 62.210.18.40: icmp_seq=8 ttl=48 time=300.753 ms
+64 bytes from 62.210.18.40: icmp_seq=9 ttl=48 time=300.499 ms
+
+--- ping.online.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 300.499/301.070/301.802/0.398 ms
+2nd
+PING ping.online.net (62.210.18.40): 56 data bytes
+64 bytes from 62.210.18.40: icmp_seq=0 ttl=48 time=300.680 ms
+64 bytes from 62.210.18.40: icmp_seq=1 ttl=48 time=300.601 ms
+64 bytes from 62.210.18.40: icmp_seq=2 ttl=48 time=301.292 ms
+64 bytes from 62.210.18.40: icmp_seq=3 ttl=48 time=301.451 ms
+64 bytes from 62.210.18.40: icmp_seq=4 ttl=48 time=301.186 ms
+64 bytes from 62.210.18.40: icmp_seq=5 ttl=48 time=301.471 ms
+64 bytes from 62.210.18.40: icmp_seq=6 ttl=48 time=300.949 ms
+64 bytes from 62.210.18.40: icmp_seq=7 ttl=48 time=301.560 ms
+64 bytes from 62.210.18.40: icmp_seq=8 ttl=48 time=300.823 ms
+64 bytes from 62.210.18.40: icmp_seq=9 ttl=48 time=300.772 ms
+
+--- ping.online.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 300.601/301.078/301.560/0.338 ms
+3rd
+PING ping.online.net (62.210.18.40): 56 data bytes
+64 bytes from 62.210.18.40: icmp_seq=0 ttl=48 time=300.728 ms
+64 bytes from 62.210.18.40: icmp_seq=1 ttl=48 time=300.812 ms
+64 bytes from 62.210.18.40: icmp_seq=2 ttl=48 time=300.998 ms
+64 bytes from 62.210.18.40: icmp_seq=3 ttl=48 time=303.475 ms
+64 bytes from 62.210.18.40: icmp_seq=4 ttl=48 time=301.363 ms
+64 bytes from 62.210.18.40: icmp_seq=5 ttl=48 time=301.245 ms
+64 bytes from 62.210.18.40: icmp_seq=6 ttl=48 time=300.716 ms
+64 bytes from 62.210.18.40: icmp_seq=7 ttl=48 time=300.875 ms
+64 bytes from 62.210.18.40: icmp_seq=8 ttl=48 time=301.379 ms
+64 bytes from 62.210.18.40: icmp_seq=9 ttl=48 time=301.764 ms
+
+--- ping.online.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 300.716/301.336/303.475/0.783 ms
+--------------------------------------------
+st2.nn.ertelecom.ru
+1st
+PING st2.nn.ertelecom.ru (91.144.184.232): 56 data bytes
+64 bytes from 91.144.184.232: icmp_seq=0 ttl=45 time=357.419 ms
+64 bytes from 91.144.184.232: icmp_seq=1 ttl=45 time=357.369 ms
+64 bytes from 91.144.184.232: icmp_seq=2 ttl=45 time=357.211 ms
+64 bytes from 91.144.184.232: icmp_seq=3 ttl=45 time=357.295 ms
+64 bytes from 91.144.184.232: icmp_seq=4 ttl=45 time=357.717 ms
+64 bytes from 91.144.184.232: icmp_seq=5 ttl=45 time=357.481 ms
+64 bytes from 91.144.184.232: icmp_seq=6 ttl=45 time=357.406 ms
+64 bytes from 91.144.184.232: icmp_seq=7 ttl=45 time=357.401 ms
+64 bytes from 91.144.184.232: icmp_seq=8 ttl=45 time=357.149 ms
+64 bytes from 91.144.184.232: icmp_seq=9 ttl=45 time=357.591 ms
+
+--- st2.nn.ertelecom.ru ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 357.149/357.404/357.717/0.160 ms
+2nd
+PING st2.nn.ertelecom.ru (91.144.184.232): 56 data bytes
+64 bytes from 91.144.184.232: icmp_seq=0 ttl=45 time=357.225 ms
+64 bytes from 91.144.184.232: icmp_seq=1 ttl=45 time=356.831 ms
+64 bytes from 91.144.184.232: icmp_seq=2 ttl=45 time=357.685 ms
+64 bytes from 91.144.184.232: icmp_seq=3 ttl=45 time=357.111 ms
+64 bytes from 91.144.184.232: icmp_seq=4 ttl=45 time=357.249 ms
+64 bytes from 91.144.184.232: icmp_seq=5 ttl=45 time=356.775 ms
+64 bytes from 91.144.184.232: icmp_seq=6 ttl=45 time=356.897 ms
+64 bytes from 91.144.184.232: icmp_seq=7 ttl=45 time=357.637 ms
+64 bytes from 91.144.184.232: icmp_seq=8 ttl=45 time=357.576 ms
+64 bytes from 91.144.184.232: icmp_seq=9 ttl=45 time=358.024 ms
+
+--- st2.nn.ertelecom.ru ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 356.775/357.301/358.024/0.395 ms
+3rd
+PING st2.nn.ertelecom.ru (91.144.184.232): 56 data bytes
+64 bytes from 91.144.184.232: icmp_seq=0 ttl=45 time=357.253 ms
+64 bytes from 91.144.184.232: icmp_seq=1 ttl=45 time=357.621 ms
+64 bytes from 91.144.184.232: icmp_seq=2 ttl=45 time=357.527 ms
+64 bytes from 91.144.184.232: icmp_seq=3 ttl=45 time=358.041 ms
+64 bytes from 91.144.184.232: icmp_seq=4 ttl=45 time=356.999 ms
+64 bytes from 91.144.184.232: icmp_seq=5 ttl=45 time=357.561 ms
+64 bytes from 91.144.184.232: icmp_seq=6 ttl=45 time=357.322 ms
+64 bytes from 91.144.184.232: icmp_seq=7 ttl=45 time=357.631 ms
+64 bytes from 91.144.184.232: icmp_seq=8 ttl=45 time=356.692 ms
+64 bytes from 91.144.184.232: icmp_seq=9 ttl=45 time=357.468 ms
+
+--- st2.nn.ertelecom.ru ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 356.692/357.411/358.041/0.353 ms
+--------------------------------------------
+iperf.biznetnetworks.com
+1st
+PING iperf.biznetnetworks.com (117.102.109.186): 56 data bytes
+64 bytes from 117.102.109.186: icmp_seq=0 ttl=55 time=210.733 ms
+64 bytes from 117.102.109.186: icmp_seq=1 ttl=55 time=210.530 ms
+64 bytes from 117.102.109.186: icmp_seq=2 ttl=55 time=210.417 ms
+64 bytes from 117.102.109.186: icmp_seq=3 ttl=55 time=211.600 ms
+64 bytes from 117.102.109.186: icmp_seq=4 ttl=55 time=211.213 ms
+64 bytes from 117.102.109.186: icmp_seq=5 ttl=55 time=211.428 ms
+64 bytes from 117.102.109.186: icmp_seq=6 ttl=55 time=211.236 ms
+64 bytes from 117.102.109.186: icmp_seq=7 ttl=55 time=211.532 ms
+64 bytes from 117.102.109.186: icmp_seq=8 ttl=55 time=211.483 ms
+64 bytes from 117.102.109.186: icmp_seq=9 ttl=55 time=210.342 ms
+
+--- iperf.biznetnetworks.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 210.342/211.051/211.600/0.469 ms
+2nd
+PING iperf.biznetnetworks.com (117.102.109.186): 56 data bytes
+64 bytes from 117.102.109.186: icmp_seq=0 ttl=55 time=211.057 ms
+64 bytes from 117.102.109.186: icmp_seq=1 ttl=55 time=210.978 ms
+64 bytes from 117.102.109.186: icmp_seq=2 ttl=55 time=210.999 ms
+64 bytes from 117.102.109.186: icmp_seq=3 ttl=55 time=210.709 ms
+64 bytes from 117.102.109.186: icmp_seq=4 ttl=55 time=210.165 ms
+64 bytes from 117.102.109.186: icmp_seq=5 ttl=55 time=211.354 ms
+64 bytes from 117.102.109.186: icmp_seq=6 ttl=55 time=211.548 ms
+64 bytes from 117.102.109.186: icmp_seq=7 ttl=55 time=211.352 ms
+64 bytes from 117.102.109.186: icmp_seq=8 ttl=55 time=211.361 ms
+64 bytes from 117.102.109.186: icmp_seq=9 ttl=55 time=211.389 ms
+
+--- iperf.biznetnetworks.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 210.165/211.091/211.548/0.392 ms
+3rd
+PING iperf.biznetnetworks.com (117.102.109.186): 56 data bytes
+64 bytes from 117.102.109.186: icmp_seq=0 ttl=55 time=211.141 ms
+64 bytes from 117.102.109.186: icmp_seq=1 ttl=55 time=211.408 ms
+64 bytes from 117.102.109.186: icmp_seq=2 ttl=55 time=210.602 ms
+64 bytes from 117.102.109.186: icmp_seq=3 ttl=55 time=211.216 ms
+64 bytes from 117.102.109.186: icmp_seq=4 ttl=55 time=211.273 ms
+64 bytes from 117.102.109.186: icmp_seq=5 ttl=55 time=211.243 ms
+64 bytes from 117.102.109.186: icmp_seq=6 ttl=55 time=210.760 ms
+64 bytes from 117.102.109.186: icmp_seq=7 ttl=55 time=210.850 ms
+64 bytes from 117.102.109.186: icmp_seq=8 ttl=55 time=211.463 ms
+64 bytes from 117.102.109.186: icmp_seq=9 ttl=55 time=210.984 ms
+
+--- iperf.biznetnetworks.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 210.602/211.094/211.463/0.270 ms
+--------------------------------------------
+ping-90ms.online.net
+1st
+PING ping-90ms.online.net (62.210.18.41): 56 data bytes
+64 bytes from 62.210.18.41: icmp_seq=0 ttl=48 time=390.150 ms
+64 bytes from 62.210.18.41: icmp_seq=1 ttl=48 time=389.245 ms
+64 bytes from 62.210.18.41: icmp_seq=2 ttl=48 time=390.341 ms
+64 bytes from 62.210.18.41: icmp_seq=3 ttl=48 time=389.511 ms
+64 bytes from 62.210.18.41: icmp_seq=4 ttl=48 time=390.506 ms
+64 bytes from 62.210.18.41: icmp_seq=5 ttl=48 time=389.286 ms
+64 bytes from 62.210.18.41: icmp_seq=6 ttl=48 time=390.207 ms
+64 bytes from 62.210.18.41: icmp_seq=7 ttl=48 time=389.540 ms
+64 bytes from 62.210.18.41: icmp_seq=8 ttl=48 time=389.409 ms
+64 bytes from 62.210.18.41: icmp_seq=9 ttl=48 time=389.774 ms
+
+--- ping-90ms.online.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 389.245/389.797/390.506/0.442 ms
+2nd
+PING ping-90ms.online.net (62.210.18.41): 56 data bytes
+64 bytes from 62.210.18.41: icmp_seq=0 ttl=48 time=389.279 ms
+64 bytes from 62.210.18.41: icmp_seq=1 ttl=48 time=389.236 ms
+64 bytes from 62.210.18.41: icmp_seq=2 ttl=48 time=389.428 ms
+64 bytes from 62.210.18.41: icmp_seq=3 ttl=48 time=389.740 ms
+64 bytes from 62.210.18.41: icmp_seq=4 ttl=48 time=389.030 ms
+64 bytes from 62.210.18.41: icmp_seq=5 ttl=48 time=389.221 ms
+64 bytes from 62.210.18.41: icmp_seq=6 ttl=48 time=390.007 ms
+64 bytes from 62.210.18.41: icmp_seq=7 ttl=48 time=389.916 ms
+64 bytes from 62.210.18.41: icmp_seq=8 ttl=48 time=390.065 ms
+64 bytes from 62.210.18.41: icmp_seq=9 ttl=48 time=390.562 ms
+
+--- ping-90ms.online.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 389.030/389.648/390.562/0.462 ms
+3rd
+PING ping-90ms.online.net (62.210.18.41): 56 data bytes
+64 bytes from 62.210.18.41: icmp_seq=0 ttl=48 time=389.796 ms
+64 bytes from 62.210.18.41: icmp_seq=1 ttl=48 time=389.195 ms
+64 bytes from 62.210.18.41: icmp_seq=2 ttl=48 time=389.483 ms
+64 bytes from 62.210.18.41: icmp_seq=3 ttl=48 time=389.353 ms
+64 bytes from 62.210.18.41: icmp_seq=4 ttl=48 time=389.890 ms
+64 bytes from 62.210.18.41: icmp_seq=5 ttl=48 time=389.426 ms
+64 bytes from 62.210.18.41: icmp_seq=6 ttl=48 time=389.474 ms
+64 bytes from 62.210.18.41: icmp_seq=7 ttl=48 time=390.063 ms
+64 bytes from 62.210.18.41: icmp_seq=8 ttl=48 time=389.651 ms
+64 bytes from 62.210.18.41: icmp_seq=9 ttl=48 time=389.788 ms
+
+--- ping-90ms.online.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 389.195/389.612/390.063/0.257 ms
+--------------------------------------------
+speedtest.serverius.net
+1st
+PING speedtest.serverius.net (178.21.16.76): 56 data bytes
+64 bytes from 178.21.16.76: icmp_seq=0 ttl=48 time=301.079 ms
+64 bytes from 178.21.16.76: icmp_seq=1 ttl=48 time=301.376 ms
+64 bytes from 178.21.16.76: icmp_seq=2 ttl=48 time=301.227 ms
+64 bytes from 178.21.16.76: icmp_seq=3 ttl=48 time=300.749 ms
+64 bytes from 178.21.16.76: icmp_seq=4 ttl=48 time=300.968 ms
+64 bytes from 178.21.16.76: icmp_seq=5 ttl=48 time=301.247 ms
+64 bytes from 178.21.16.76: icmp_seq=6 ttl=48 time=300.871 ms
+64 bytes from 178.21.16.76: icmp_seq=7 ttl=48 time=301.367 ms
+64 bytes from 178.21.16.76: icmp_seq=8 ttl=48 time=301.329 ms
+64 bytes from 178.21.16.76: icmp_seq=9 ttl=48 time=301.372 ms
+
+--- speedtest.serverius.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 300.749/301.159/301.376/0.217 ms
+2nd
+PING speedtest.serverius.net (178.21.16.76): 56 data bytes
+64 bytes from 178.21.16.76: icmp_seq=0 ttl=48 time=300.997 ms
+64 bytes from 178.21.16.76: icmp_seq=1 ttl=48 time=300.561 ms
+64 bytes from 178.21.16.76: icmp_seq=2 ttl=48 time=300.861 ms
+64 bytes from 178.21.16.76: icmp_seq=3 ttl=48 time=300.892 ms
+64 bytes from 178.21.16.76: icmp_seq=4 ttl=48 time=301.120 ms
+64 bytes from 178.21.16.76: icmp_seq=5 ttl=48 time=300.986 ms
+64 bytes from 178.21.16.76: icmp_seq=6 ttl=48 time=302.405 ms
+64 bytes from 178.21.16.76: icmp_seq=7 ttl=48 time=301.110 ms
+64 bytes from 178.21.16.76: icmp_seq=8 ttl=48 time=301.666 ms
+64 bytes from 178.21.16.76: icmp_seq=9 ttl=48 time=302.094 ms
+
+--- speedtest.serverius.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 300.561/301.269/302.405/0.560 ms
+3rd
+PING speedtest.serverius.net (178.21.16.76): 56 data bytes
+64 bytes from 178.21.16.76: icmp_seq=0 ttl=48 time=300.648 ms
+64 bytes from 178.21.16.76: icmp_seq=1 ttl=48 time=301.330 ms
+64 bytes from 178.21.16.76: icmp_seq=2 ttl=48 time=301.493 ms
+64 bytes from 178.21.16.76: icmp_seq=3 ttl=48 time=300.774 ms
+64 bytes from 178.21.16.76: icmp_seq=4 ttl=48 time=301.384 ms
+64 bytes from 178.21.16.76: icmp_seq=5 ttl=48 time=301.251 ms
+64 bytes from 178.21.16.76: icmp_seq=6 ttl=48 time=300.825 ms
+64 bytes from 178.21.16.76: icmp_seq=7 ttl=48 time=300.785 ms
+64 bytes from 178.21.16.76: icmp_seq=8 ttl=48 time=301.429 ms
+64 bytes from 178.21.16.76: icmp_seq=9 ttl=48 time=301.196 ms
+
+--- speedtest.serverius.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 300.648/301.111/301.493/0.302 ms
+--------------------------------------------
+bouygues.iperf.fr
+1st
+PING bouygues.iperf.fr (89.84.1.222): 56 data bytes
+64 bytes from 89.84.1.222: icmp_seq=0 ttl=47 time=303.139 ms
+64 bytes from 89.84.1.222: icmp_seq=1 ttl=47 time=302.818 ms
+64 bytes from 89.84.1.222: icmp_seq=2 ttl=47 time=302.385 ms
+64 bytes from 89.84.1.222: icmp_seq=3 ttl=47 time=302.744 ms
+64 bytes from 89.84.1.222: icmp_seq=4 ttl=47 time=303.163 ms
+64 bytes from 89.84.1.222: icmp_seq=5 ttl=47 time=302.005 ms
+64 bytes from 89.84.1.222: icmp_seq=6 ttl=47 time=302.360 ms
+64 bytes from 89.84.1.222: icmp_seq=7 ttl=47 time=302.355 ms
+64 bytes from 89.84.1.222: icmp_seq=8 ttl=47 time=302.096 ms
+64 bytes from 89.84.1.222: icmp_seq=9 ttl=47 time=302.437 ms
+
+--- bouygues.iperf.fr ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 302.005/302.550/303.163/0.381 ms
+2nd
+PING bouygues.iperf.fr (89.84.1.222): 56 data bytes
+64 bytes from 89.84.1.222: icmp_seq=0 ttl=47 time=366.028 ms
+64 bytes from 89.84.1.222: icmp_seq=1 ttl=47 time=303.103 ms
+64 bytes from 89.84.1.222: icmp_seq=2 ttl=47 time=303.161 ms
+64 bytes from 89.84.1.222: icmp_seq=3 ttl=47 time=302.926 ms
+64 bytes from 89.84.1.222: icmp_seq=4 ttl=47 time=302.250 ms
+64 bytes from 89.84.1.222: icmp_seq=5 ttl=47 time=303.115 ms
+64 bytes from 89.84.1.222: icmp_seq=6 ttl=47 time=302.383 ms
+64 bytes from 89.84.1.222: icmp_seq=7 ttl=47 time=303.354 ms
+64 bytes from 89.84.1.222: icmp_seq=8 ttl=47 time=304.232 ms
+64 bytes from 89.84.1.222: icmp_seq=9 ttl=47 time=303.644 ms
+
+--- bouygues.iperf.fr ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 302.250/309.420/366.028/18.877 ms
+3rd
+PING bouygues.iperf.fr (89.84.1.222): 56 data bytes
+64 bytes from 89.84.1.222: icmp_seq=0 ttl=47 time=302.129 ms
+64 bytes from 89.84.1.222: icmp_seq=1 ttl=47 time=302.940 ms
+64 bytes from 89.84.1.222: icmp_seq=2 ttl=47 time=303.480 ms
+64 bytes from 89.84.1.222: icmp_seq=3 ttl=47 time=302.558 ms
+64 bytes from 89.84.1.222: icmp_seq=4 ttl=47 time=319.570 ms
+64 bytes from 89.84.1.222: icmp_seq=5 ttl=47 time=466.100 ms
+64 bytes from 89.84.1.222: icmp_seq=6 ttl=47 time=369.809 ms
+64 bytes from 89.84.1.222: icmp_seq=7 ttl=47 time=302.391 ms
+64 bytes from 89.84.1.222: icmp_seq=8 ttl=47 time=302.596 ms
+64 bytes from 89.84.1.222: icmp_seq=9 ttl=47 time=301.978 ms
+
+--- bouygues.iperf.fr ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 301.978/327.355/466.100/50.409 ms
+-------------------------------------------------
+iperf.volia.net
+1st
+PING speedtest.volia.net (82.144.193.18): 56 data bytes
+64 bytes from 82.144.193.18: icmp_seq=0 ttl=46 time=337.542 ms
+64 bytes from 82.144.193.18: icmp_seq=1 ttl=46 time=337.122 ms
+64 bytes from 82.144.193.18: icmp_seq=2 ttl=46 time=336.623 ms
+64 bytes from 82.144.193.18: icmp_seq=3 ttl=46 time=337.156 ms
+64 bytes from 82.144.193.18: icmp_seq=4 ttl=46 time=337.238 ms
+64 bytes from 82.144.193.18: icmp_seq=5 ttl=46 time=336.912 ms
+64 bytes from 82.144.193.18: icmp_seq=6 ttl=46 time=336.706 ms
+64 bytes from 82.144.193.18: icmp_seq=7 ttl=46 time=337.592 ms
+64 bytes from 82.144.193.18: icmp_seq=8 ttl=46 time=337.241 ms
+64 bytes from 82.144.193.18: icmp_seq=9 ttl=46 time=337.526 ms
+
+--- speedtest.volia.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 336.623/337.166/337.592/0.322 ms
+2nd
+PING speedtest.volia.net (82.144.193.18): 56 data bytes
+64 bytes from 82.144.193.18: icmp_seq=0 ttl=46 time=337.739 ms
+64 bytes from 82.144.193.18: icmp_seq=1 ttl=46 time=336.526 ms
+64 bytes from 82.144.193.18: icmp_seq=2 ttl=46 time=337.469 ms
+64 bytes from 82.144.193.18: icmp_seq=3 ttl=46 time=337.970 ms
+64 bytes from 82.144.193.18: icmp_seq=4 ttl=46 time=337.939 ms
+64 bytes from 82.144.193.18: icmp_seq=5 ttl=46 time=336.820 ms
+64 bytes from 82.144.193.18: icmp_seq=6 ttl=46 time=336.592 ms
+64 bytes from 82.144.193.18: icmp_seq=7 ttl=46 time=336.906 ms
+64 bytes from 82.144.193.18: icmp_seq=8 ttl=46 time=337.638 ms
+64 bytes from 82.144.193.18: icmp_seq=9 ttl=46 time=337.408 ms
+
+--- speedtest.volia.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 336.526/337.301/337.970/0.519 ms
+3rd
+PING speedtest.volia.net (82.144.193.18): 56 data bytes
+64 bytes from 82.144.193.18: icmp_seq=0 ttl=46 time=337.550 ms
+64 bytes from 82.144.193.18: icmp_seq=1 ttl=46 time=337.226 ms
+64 bytes from 82.144.193.18: icmp_seq=2 ttl=46 time=337.500 ms
+64 bytes from 82.144.193.18: icmp_seq=3 ttl=46 time=337.159 ms
+64 bytes from 82.144.193.18: icmp_seq=4 ttl=46 time=337.164 ms
+64 bytes from 82.144.193.18: icmp_seq=5 ttl=46 time=419.313 ms
+64 bytes from 82.144.193.18: icmp_seq=6 ttl=46 time=337.140 ms
+64 bytes from 82.144.193.18: icmp_seq=7 ttl=46 time=337.438 ms
+64 bytes from 82.144.193.18: icmp_seq=8 ttl=46 time=337.341 ms
+64 bytes from 82.144.193.18: icmp_seq=9 ttl=46 time=337.623 ms
+
+--- speedtest.volia.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 337.140/345.545/419.313/24.590 ms
+--------------------------------------------
+iperf.it-north.net
+1st
+PING iperf.it-north.net (82.200.209.194): 56 data bytes
+64 bytes from 82.200.209.194: icmp_seq=0 ttl=41 time=394.838 ms
+64 bytes from 82.200.209.194: icmp_seq=1 ttl=41 time=395.003 ms
+64 bytes from 82.200.209.194: icmp_seq=2 ttl=41 time=394.485 ms
+64 bytes from 82.200.209.194: icmp_seq=3 ttl=41 time=395.078 ms
+64 bytes from 82.200.209.194: icmp_seq=4 ttl=41 time=394.153 ms
+64 bytes from 82.200.209.194: icmp_seq=5 ttl=41 time=394.186 ms
+64 bytes from 82.200.209.194: icmp_seq=6 ttl=41 time=394.283 ms
+64 bytes from 82.200.209.194: icmp_seq=7 ttl=41 time=395.194 ms
+64 bytes from 82.200.209.194: icmp_seq=8 ttl=41 time=394.806 ms
+64 bytes from 82.200.209.194: icmp_seq=9 ttl=41 time=395.242 ms
+
+--- iperf.it-north.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 394.153/394.727/395.242/0.397 ms
+2nd
+PING iperf.it-north.net (82.200.209.194): 56 data bytes
+64 bytes from 82.200.209.194: icmp_seq=0 ttl=41 time=394.932 ms
+64 bytes from 82.200.209.194: icmp_seq=1 ttl=41 time=395.250 ms
+64 bytes from 82.200.209.194: icmp_seq=2 ttl=41 time=394.285 ms
+64 bytes from 82.200.209.194: icmp_seq=3 ttl=41 time=394.173 ms
+64 bytes from 82.200.209.194: icmp_seq=4 ttl=41 time=394.177 ms
+64 bytes from 82.200.209.194: icmp_seq=5 ttl=41 time=394.370 ms
+64 bytes from 82.200.209.194: icmp_seq=6 ttl=41 time=394.987 ms
+64 bytes from 82.200.209.194: icmp_seq=7 ttl=41 time=394.252 ms
+64 bytes from 82.200.209.194: icmp_seq=8 ttl=41 time=395.123 ms
+64 bytes from 82.200.209.194: icmp_seq=9 ttl=41 time=394.460 ms
+
+--- iperf.it-north.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 394.173/394.601/395.250/0.401 ms
+3rd
+PING iperf.it-north.net (82.200.209.194): 56 data bytes
+64 bytes from 82.200.209.194: icmp_seq=0 ttl=41 time=394.773 ms
+64 bytes from 82.200.209.194: icmp_seq=1 ttl=41 time=394.608 ms
+64 bytes from 82.200.209.194: icmp_seq=2 ttl=41 time=394.241 ms
+64 bytes from 82.200.209.194: icmp_seq=3 ttl=41 time=411.930 ms
+64 bytes from 82.200.209.194: icmp_seq=4 ttl=41 time=395.691 ms
+64 bytes from 82.200.209.194: icmp_seq=5 ttl=41 time=396.013 ms
+64 bytes from 82.200.209.194: icmp_seq=6 ttl=41 time=394.507 ms
+64 bytes from 82.200.209.194: icmp_seq=7 ttl=41 time=394.604 ms
+64 bytes from 82.200.209.194: icmp_seq=8 ttl=41 time=394.784 ms
+64 bytes from 82.200.209.194: icmp_seq=9 ttl=41 time=395.042 ms
+
+--- iperf.it-north.net ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 394.241/396.619/411.930/5.130 ms
+--------------------------------------------
+ping ends

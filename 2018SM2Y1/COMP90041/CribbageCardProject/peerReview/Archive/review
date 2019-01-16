@@ -1,0 +1,15 @@
+1. The method to calculate runs is not completed.
+2. The whole layout of the codes is very uncomfortalbe.
+3. The format of the block comments for documentation for each method is not 
+   appropriate. Should start with "/**" instead of "/*"
+4. Indents in methods Nobs() and Fifteens() are not good.
+5. Excessively long boolean expressions in the if clause in method
+   Nobs(), which is barely readable.
+6. The main method that calculates the scores from input cards should 
+   not be put in the same class as the methods calculate scores from
+   runs, ...etc.
+7. On the whole, besides the unfinished runs method, the documentation
+   is not bad besides its format, code is understandable, besides the 
+   long if condition. However, the code is not very neat and organized,
+   nor very simple or brief or well abstracted. Total code quality 
+   is needed to be improved. 

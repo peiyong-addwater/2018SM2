@@ -1,0 +1,180 @@
+starting ping
+iperf.he.net
+1st
+PING 9000.mtu.he.net (216.218.227.10): 56 data bytes
+64 bytes from 216.218.227.10: icmp_seq=0 ttl=53 time=163.253 ms
+
+--- 9000.mtu.he.net ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 163.253/163.253/163.253/0.000 ms
+2nd
+PING 9000.mtu.he.net (216.218.227.10): 56 data bytes
+64 bytes from 216.218.227.10: icmp_seq=0 ttl=53 time=162.323 ms
+
+--- 9000.mtu.he.net ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 162.323/162.323/162.323/0.000 ms
+3rd
+PING 9000.mtu.he.net (216.218.227.10): 56 data bytes
+64 bytes from 216.218.227.10: icmp_seq=0 ttl=53 time=163.285 ms
+
+--- 9000.mtu.he.net ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 163.285/163.285/163.285/0.000 ms
+--------------------------------------------
+bouygues.testdebit.info
+1st
+PING bouygues.testdebit.info (89.84.1.222): 56 data bytes
+
+--- bouygues.testdebit.info ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+2nd
+PING bouygues.testdebit.info (89.84.1.222): 56 data bytes
+
+--- bouygues.testdebit.info ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING bouygues.testdebit.info (89.84.1.222): 56 data bytes
+
+--- bouygues.testdebit.info ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+ping.online.net
+1st
+PING ping.online.net (62.210.18.40): 56 data bytes
+
+--- ping.online.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+2nd
+PING ping.online.net (62.210.18.40): 56 data bytes
+
+--- ping.online.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING ping.online.net (62.210.18.40): 56 data bytes
+
+--- ping.online.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+st2.nn.ertelecom.ru
+1st
+PING st2.nn.ertelecom.ru (91.144.184.232): 56 data bytes
+
+--- st2.nn.ertelecom.ru ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+2nd
+PING st2.nn.ertelecom.ru (91.144.184.232): 56 data bytes
+
+--- st2.nn.ertelecom.ru ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING st2.nn.ertelecom.ru (91.144.184.232): 56 data bytes
+
+--- st2.nn.ertelecom.ru ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+iperf.biznetnetworks.com
+1st
+PING iperf.biznetnetworks.com (117.102.109.186): 56 data bytes
+
+--- iperf.biznetnetworks.com ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+2nd
+PING iperf.biznetnetworks.com (117.102.109.186): 56 data bytes
+
+--- iperf.biznetnetworks.com ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING iperf.biznetnetworks.com (117.102.109.186): 56 data bytes
+
+--- iperf.biznetnetworks.com ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+ping-90ms.online.net
+1st
+PING ping-90ms.online.net (62.210.18.41): 56 data bytes
+
+--- ping-90ms.online.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+2nd
+PING ping-90ms.online.net (62.210.18.41): 56 data bytes
+
+--- ping-90ms.online.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING ping-90ms.online.net (62.210.18.41): 56 data bytes
+
+--- ping-90ms.online.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+speedtest.serverius.net
+1st
+PING speedtest.serverius.net (178.21.16.76): 56 data bytes
+
+--- speedtest.serverius.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+2nd
+PING speedtest.serverius.net (178.21.16.76): 56 data bytes
+
+--- speedtest.serverius.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING speedtest.serverius.net (178.21.16.76): 56 data bytes
+
+--- speedtest.serverius.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+bouygues.iperf.fr
+1st
+PING bouygues.iperf.fr (89.84.1.222): 56 data bytes
+64 bytes from 89.84.1.222: icmp_seq=0 ttl=47 time=302.784 ms
+
+--- bouygues.iperf.fr ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 302.784/302.784/302.784/0.000 ms
+2nd
+PING bouygues.iperf.fr (89.84.1.222): 56 data bytes
+
+--- bouygues.iperf.fr ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING bouygues.iperf.fr (89.84.1.222): 56 data bytes
+
+--- bouygues.iperf.fr ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+iperf.volia.net
+1st
+PING speedtest.volia.net (82.144.193.18): 56 data bytes
+
+--- speedtest.volia.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+2nd
+PING speedtest.volia.net (82.144.193.18): 56 data bytes
+
+--- speedtest.volia.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING speedtest.volia.net (82.144.193.18): 56 data bytes
+
+--- speedtest.volia.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+iperf.it-north.net
+1st
+PING iperf.it-north.net (82.200.209.194): 56 data bytes
+
+--- iperf.it-north.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+2nd
+PING iperf.it-north.net (82.200.209.194): 56 data bytes
+
+--- iperf.it-north.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+3rd
+PING iperf.it-north.net (82.200.209.194): 56 data bytes
+
+--- iperf.it-north.net ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+--------------------------------------------
+ping ends

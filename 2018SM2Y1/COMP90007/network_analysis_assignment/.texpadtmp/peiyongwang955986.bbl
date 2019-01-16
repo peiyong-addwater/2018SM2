@@ -1,0 +1,20 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {traceroute Man Page}}{%
+\APACcitebtitle {traceroute Man Page}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+traceroutemanual}
+\APACinsertmetastar {%
+traceroutemanual}%
+\APACrefbtitle {traceroute Man Page.} {traceroute man page.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APAChowpublished {\url{https://ss64.com/osx/traceroute.html}}.
+\newblock
+\APACrefnote{Accessed: 2018-09-16}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

@@ -1,0 +1,298 @@
+Starting iperf
+-------------------------------------------
+iperf.he.net
+1st
+------------------------------------------------------------
+Client connecting to iperf.he.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56216 connected with 216.218.227.10 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  36.8 MBytes  30.7 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to iperf.he.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56224 connected with 216.218.227.10 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  50.4 MBytes  41.6 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to iperf.he.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56231 connected with 216.218.227.10 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  52.8 MBytes  44.2 Mbits/sec
+--------------------------------------------
+bouygues.testdebit.info
+1st
+------------------------------------------------------------
+Client connecting to bouygues.testdebit.info, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56237 connected with 89.84.1.222 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  18446744073698670592 bits  4719508116172628337103745366266s/sec
+2nd
+------------------------------------------------------------
+Client connecting to bouygues.testdebit.info, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56243 connected with 89.84.1.222 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  18446744073698830336 bits  4717762268939332879330547168172s/sec
+3rd
+------------------------------------------------------------
+Client connecting to bouygues.testdebit.info, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56249 connected with 89.84.1.222 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  18446744073698537472 bits  4717624109242543106345841477941s/sec
+--------------------------------------------
+ikoula.testdebit.info
+1st
+------------------------------------------------------------
+Client connecting to ikoula.testdebit.info, TCP port 443
+TCP window size: 0.13 MByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56255 connected with 213.246.63.45 port 443
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  17592186044406 MBytes  14753360214940 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to ikoula.testdebit.info, TCP port 443
+TCP window size: 0.13 MByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56261 connected with 213.246.63.45 port 443
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  17592186044406 MBytes  14753079983064 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to ikoula.testdebit.info, TCP port 443
+TCP window size: 0.13 MByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56267 connected with 213.246.63.45 port 443
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  17592186044406 MBytes  14750120499529 Mbits/sec
+--------------------------------------------
+st2.nn.ertelecom.ru
+1st
+------------------------------------------------------------
+Client connecting to st2.nn.ertelecom.ru, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56275 connected with 91.144.184.232 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  21.1 MBytes  17.6 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to st2.nn.ertelecom.ru, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56281 connected with 91.144.184.232 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  21.0 MBytes  17.6 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to st2.nn.ertelecom.ru, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56290 connected with 91.144.184.232 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  21.1 MBytes  17.5 Mbits/sec
+--------------------------------------------
+iperf.biznetnetworks.com
+1st
+Connecting to host iperf.biznetnetworks.com, port 5202
+[  7] local 10.160.13.55 port 56299 connected to 117.102.109.186 port 5202
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.01   sec   158 KBytes  1.28 Mbits/sec                  
+[  7]   1.01-2.01   sec   734 KBytes  6.04 Mbits/sec                  
+[  7]   2.01-3.00   sec  2.71 MBytes  22.9 Mbits/sec                  
+[  7]   3.00-4.00   sec  4.89 MBytes  41.0 Mbits/sec                  
+[  7]   4.00-5.00   sec  4.48 MBytes  37.6 Mbits/sec                  
+[  7]   5.00-6.00   sec  4.57 MBytes  38.3 Mbits/sec                  
+[  7]   6.00-7.00   sec  4.76 MBytes  39.9 Mbits/sec                  
+[  7]   7.00-8.00   sec  4.61 MBytes  38.7 Mbits/sec                  
+[  7]   8.00-9.00   sec  4.71 MBytes  39.5 Mbits/sec                  
+[  7]   9.00-10.00  sec  4.11 MBytes  34.5 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  35.7 MBytes  29.9 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  35.7 MBytes  29.9 Mbits/sec                  receiver
+
+iperf Done.
+2nd
+Connecting to host iperf.biznetnetworks.com, port 5202
+[  7] local 10.160.13.55 port 56307 connected to 117.102.109.186 port 5202
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.01   sec   157 KBytes  1.27 Mbits/sec                  
+[  7]   1.01-2.00   sec   693 KBytes  5.73 Mbits/sec                  
+[  7]   2.00-3.00   sec  2.66 MBytes  22.3 Mbits/sec                  
+[  7]   3.00-4.00   sec  4.79 MBytes  40.2 Mbits/sec                  
+[  7]   4.00-5.00   sec  4.65 MBytes  39.1 Mbits/sec                  
+[  7]   5.00-6.00   sec  4.57 MBytes  38.3 Mbits/sec                  
+[  7]   6.00-7.00   sec  4.77 MBytes  39.8 Mbits/sec                  
+[  7]   7.00-8.00   sec  4.66 MBytes  39.2 Mbits/sec                  
+[  7]   8.00-9.00   sec  4.64 MBytes  38.9 Mbits/sec                  
+[  7]   9.00-10.00  sec  4.65 MBytes  39.0 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  36.2 MBytes  30.4 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  36.2 MBytes  30.4 Mbits/sec                  receiver
+
+iperf Done.
+3rd
+Connecting to host iperf.biznetnetworks.com, port 5202
+[  7] local 10.160.13.55 port 56314 connected to 117.102.109.186 port 5202
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.01   sec   157 KBytes  1.27 Mbits/sec                  
+[  7]   1.01-2.00   sec   628 KBytes  5.19 Mbits/sec                  
+[  7]   2.00-3.00   sec  2.35 MBytes  19.8 Mbits/sec                  
+[  7]   3.00-4.00   sec  4.89 MBytes  40.9 Mbits/sec                  
+[  7]   4.00-5.00   sec  4.57 MBytes  38.4 Mbits/sec                  
+[  7]   5.00-6.00   sec  4.56 MBytes  38.2 Mbits/sec                  
+[  7]   6.00-7.00   sec  4.86 MBytes  40.8 Mbits/sec                  
+[  7]   7.00-8.00   sec  4.59 MBytes  38.5 Mbits/sec                  
+[  7]   8.00-9.00   sec  4.53 MBytes  38.0 Mbits/sec                  
+[  7]   9.00-10.00  sec  4.80 MBytes  40.3 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  35.9 MBytes  30.1 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  35.9 MBytes  30.1 Mbits/sec                  receiver
+
+iperf Done.
+--------------------------------------------
+iperf.scottlinux.com
+1st
+------------------------------------------------------------
+Client connecting to iperf.scottlinux.com, TCP port 5201
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56320 connected with 45.33.39.39 port 5201
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-3110.9 sec   384 KBytes  1.01 Kbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to iperf.scottlinux.com, TCP port 5201
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56432 connected with 45.33.39.39 port 5201
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  18446744073699463168 bits  4718352250022103838443692848385s/sec
+3rd
+------------------------------------------------------------
+Client connecting to iperf.scottlinux.com, TCP port 5201
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56439 connected with 45.33.39.39 port 5201
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  18446744073699411968 bits  4719131100049939330261996652803s/sec
+--------------------------------------------
+speedtest.serverius.net
+1st
+------------------------------------------------------------
+Client connecting to speedtest.serverius.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56445 connected with 178.21.16.76 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  23.9 MBytes  20.0 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to speedtest.serverius.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56451 connected with 178.21.16.76 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  24.1 MBytes  20.2 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to speedtest.serverius.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56459 connected with 178.21.16.76 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  23.5 MBytes  19.5 Mbits/sec
+--------------------------------------------
+bouygues.iperf.fr
+1st
+------------------------------------------------------------
+Client connecting to bouygues.iperf.fr, TCP port 5001
+TCP window size: 0.13 MByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56466 connected with 89.84.1.222 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  17592186044407 MBytes  1758557562653 MBytes/sec
+2nd
+------------------------------------------------------------
+Client connecting to bouygues.iperf.fr, TCP port 5001
+TCP window size: 0.13 MByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56474 connected with 89.84.1.222 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  17592186044406 MBytes  1758153339332 MBytes/sec
+3rd
+------------------------------------------------------------
+Client connecting to bouygues.iperf.fr, TCP port 5001
+TCP window size: 0.13 MByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56480 connected with 89.84.1.222 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  17592186044406 MBytes  1758677283573 MBytes/sec
+--------------------------------------------
+iperf.volia.net
+1st
+------------------------------------------------------------
+Client connecting to iperf.volia.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56486 connected with 82.144.193.18 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  22.4 MBytes  18.5 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to iperf.volia.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56493 connected with 82.144.193.18 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  22.5 MBytes  18.6 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to iperf.volia.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56501 connected with 82.144.193.18 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  22.5 MBytes  18.6 Mbits/sec
+--------------------------------------------
+iperf.it-north.net
+1st
+------------------------------------------------------------
+Client connecting to iperf.it-north.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56507 connected with 82.200.209.194 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-13.0 sec   384 KBytes   242 Kbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to iperf.it-north.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56514 connected with 82.200.209.194 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.5 sec  1.00 MBytes   801 Kbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to iperf.it-north.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 56521 connected with 82.200.209.194 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-11.7 sec   640 KBytes   448 Kbits/sec
+--------------------------------------------

@@ -1,0 +1,5 @@
+"No.","Time","Source","Destination","Protocol","Length","Info"
+"6","10.572653","10.12.10.139","www-vip2.unimelb.edu.au","HTTP","214","GET / HTTP/1.1 "
+"10","10.621180","www-vip2.unimelb.edu.au","10.12.10.139","HTTP","71","HTTP/1.1 301 Moved Permanently  (text/html)"
+"127","39.907511","sea13.ff.avast.com","10.12.10.139","HTTP","246","HTTP/1.1 200 OK "
+"129","39.916346","10.12.10.139","sea13.ff.avast.com","HTTP","320","GET /R/A1MKIEU5M0YwNDA5QzhBQzRCQkNCNTNFQjA4MDE5ODQ3QzNFEgQAMQcYGJwBIgH_KgcIBBDEhodjMgoIABD_h4djGIACOICApGhIgICAgPr_____AQ== HTTP/1.1 "

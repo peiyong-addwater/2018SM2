@@ -1,0 +1,600 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Berglund%
+\ \protect \BOthers {.}}{%
+Berglund%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+DBLP:journals/corr/BerglundRHKVK15}
+\APACinsertmetastar {%
+DBLP:journals/corr/BerglundRHKVK15}%
+\begin{APACrefauthors}%
+Berglund, M.%
+, Raiko, T.%
+, Honkala, M.%
+, K\"{a}rkk\"{a}inen, L.%
+, Vetek, A.%
+\BCBL {}\ \BBA {} Karhunen, J\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bidirectional Recurrent Neural Networks as Generative
+  Models} {Bidirectional recurrent neural networks as generative
+  models}.{\BBCQ}
+\newblock
+\BIn{} C.~Cortes, N\BPBI D.~Lawrence, D\BPBI D.~Lee, M.~Sugiyama\BCBL {}\ \BBA
+  {} R.~Garnett\ (\BEDS), \APACrefbtitle {Advances in Neural Information
+  Processing Systems 28} {Advances in neural information processing systems
+  28}\ (\BPGS\ 856--864).
+\newblock
+\APACaddressPublisher{}{Curran Associates, Inc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bishop%
+}{%
+Bishop%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+bishop:2006:PRML}
+\APACinsertmetastar {%
+bishop:2006:PRML}%
+\begin{APACrefauthors}%
+Bishop, C\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {Pattern Recognition and Machine Learning} {Pattern recognition
+  and machine learning}.
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chalapathy%
+, Menon%
+\BCBL {}\ \BBA {} Chawla%
+}{%
+Chalapathy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+chalapathy_anomaly_2018}
+\APACinsertmetastar {%
+chalapathy_anomaly_2018}%
+\begin{APACrefauthors}%
+Chalapathy, R.%
+, Menon, A\BPBI K.%
+\BCBL {}\ \BBA {} Chawla, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Anomaly {Detection} using {One}-{Class} {Neural}
+  {Networks}} {Anomaly {Detection} using {One}-{Class} {Neural}
+  {Networks}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv:1802.06360 [cs, stat]}{}{}{}.
+\newblock
+\APACrefnote{arXiv: 1802.06360}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fiore%
+, Palmieri%
+, Castiglione%
+\BCBL {}\ \BBA {} De~Santis%
+}{%
+Fiore%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+fiore_network_2013}
+\APACinsertmetastar {%
+fiore_network_2013}%
+\begin{APACrefauthors}%
+Fiore, U.%
+, Palmieri, F.%
+, Castiglione, A.%
+\BCBL {}\ \BBA {} De~Santis, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Network anomaly detection with the restricted
+  {Boltzmann} machine} {Network anomaly detection with the restricted
+  {Boltzmann} machine}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Neurocomputing}{122}{}{13--23}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.neucom.2012.11.050} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Frank%
+\ \BBA {} Bouckaert%
+}{%
+Frank%
+\ \BBA {} Bouckaert%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+10.1007/11871637_49}
+\APACinsertmetastar {%
+10.1007/11871637_49}%
+\begin{APACrefauthors}%
+Frank, E.%
+\BCBT {}\ \BBA {} Bouckaert, R\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Naive Bayes for Text Classification with Unbalanced
+  Classes} {Naive bayes for text classification with unbalanced
+  classes}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 10th European Conference on Principle
+  and Practice of Knowledge Discovery in Databases} {Proceedings of the 10th
+  european conference on principle and practice of knowledge discovery in
+  databases}\ (\BPGS\ 503--510).
+\newblock
+\APACaddressPublisher{Berlin, Heidelberg}{Springer-Verlag}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/11871637_49} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Goodfellow%
+, Bengio%
+\BCBL {}\ \BBA {} Courville%
+}{%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Goodfellow-et-al-2016}
+\APACinsertmetastar {%
+Goodfellow-et-al-2016}%
+\begin{APACrefauthors}%
+Goodfellow, I.%
+, Bengio, Y.%
+\BCBL {}\ \BBA {} Courville, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2016}.
+\newblock
+\APACrefbtitle {Deep Learning} {Deep learning}.
+\newblock
+\APACaddressPublisher{}{MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+NIPS2014_5423}
+\APACinsertmetastar {%
+NIPS2014_5423}%
+\begin{APACrefauthors}%
+Goodfellow, I.%
+, Pouget-Abadie, J.%
+, Mirza, M.%
+, Xu, B.%
+, Warde-Farley, D.%
+, Ozair, S.%
+\BDBL {}Bengio, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Generative Adversarial Nets} {Generative adversarial
+  nets}.{\BBCQ}
+\newblock
+\BIn{} Z.~Ghahramani, M.~Welling, C.~Cortes, N\BPBI D.~Lawrence\BCBL {}\ \BBA
+  {} K\BPBI Q.~Weinberger\ (\BEDS), \APACrefbtitle {Advances in Neural
+  Information Processing Systems 27} {Advances in neural information processing
+  systems 27}\ (\BPGS\ 2672--2680).
+\newblock
+\APACaddressPublisher{}{Curran Associates, Inc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+He%
+, Zhang%
+, Ren%
+\BCBL {}\ \BBA {} Sun%
+}{%
+He%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+DBLP:conf/cvpr/HeZRS16}
+\APACinsertmetastar {%
+DBLP:conf/cvpr/HeZRS16}%
+\begin{APACrefauthors}%
+He, K.%
+, Zhang, X.%
+, Ren, S.%
+\BCBL {}\ \BBA {} Sun, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep Residual Learning for Image Recognition} {Deep
+  residual learning for image recognition}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{CVPR}} {{CVPR}}\ (\BPGS\ 770--778).
+\newblock
+\APACaddressPublisher{}{{IEEE} Computer Society}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Krizhevsky%
+, Sutskever%
+\BCBL {}\ \BBA {} Hinton%
+}{%
+Krizhevsky%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+NIPS2012_4824}
+\APACinsertmetastar {%
+NIPS2012_4824}%
+\begin{APACrefauthors}%
+Krizhevsky, A.%
+, Sutskever, I.%
+\BCBL {}\ \BBA {} Hinton, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {ImageNet Classification with Deep Convolutional Neural
+  Networks} {Imagenet classification with deep convolutional neural
+  networks}.{\BBCQ}
+\newblock
+\BIn{} F.~Pereira, C\BPBI J\BPBI C.~Burges, L.~Bottou\BCBL {}\ \BBA {} K\BPBI
+  Q.~Weinberger\ (\BEDS), \APACrefbtitle {Advances in Neural Information
+  Processing Systems 25} {Advances in neural information processing systems
+  25}\ (\BPGS\ 1097--1105).
+\newblock
+\APACaddressPublisher{}{Curran Associates, Inc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+\ \protect \BOthers {.}}{%
+Li%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+li_detection_2018}
+\APACinsertmetastar {%
+li_detection_2018}%
+\begin{APACrefauthors}%
+Li, C.%
+, Wu, Y.%
+, Yuan, X.%
+, Sun, Z.%
+, Wang, W.%
+, Li, X.%
+\BCBL {}\ \BBA {} Gong, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detection and defense of {DDoS} attack-based on deep
+  learning in {OpenFlow}-based {SDN}} {Detection and defense of {DDoS}
+  attack-based on deep learning in {OpenFlow}-based {SDN}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Communication
+  Systems}{31}{5}{e3497}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/dac.3497} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Malik%
+\ \BBA {} Singh%
+}{%
+Malik%
+\ \BBA {} Singh%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+malik_review:_2015}
+\APACinsertmetastar {%
+malik_review:_2015}%
+\begin{APACrefauthors}%
+Malik, M.%
+\BCBT {}\ \BBA {} Singh, D\BPBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A {Review}: {DoS} and {DDoS} {Attacks}} {A {Review}:
+  {DoS} and {DDoS} {Attacks}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IJCSMC}{4}{}{260 – 265}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mirkovic%
+\ \BBA {} Reiher%
+}{%
+Mirkovic%
+\ \BBA {} Reiher%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+mirkovic_taxonomy_2004}
+\APACinsertmetastar {%
+mirkovic_taxonomy_2004}%
+\begin{APACrefauthors}%
+Mirkovic, J.%
+\BCBT {}\ \BBA {} Reiher, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{April}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A taxonomy of {DDoS} attack and {DDoS} defense
+  mechanisms} {A taxonomy of {DDoS} attack and {DDoS} defense
+  mechanisms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM SIGCOMM Computer Communication Review}{34}{2}{39}.
+\newblock
+\begin{APACrefDOI} \doi{10.1145/997150.997156} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mnih%
+\ \protect \BOthers {.}}{%
+Mnih%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+mnih2015humanlevel}
+\APACinsertmetastar {%
+mnih2015humanlevel}%
+\begin{APACrefauthors}%
+Mnih, V.%
+, Kavukcuoglu, K.%
+, Silver, D.%
+, Rusu, A\BPBI A.%
+, Veness, J.%
+, Bellemare, M\BPBI G.%
+\BDBL {}Hassabis, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{{\APACmonth{02}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Human-level control through deep reinforcement learning}
+  {Human-level control through deep reinforcement learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature}{518}{7540}{529--533}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schuster%
+\ \BBA {} Paliwal%
+}{%
+Schuster%
+\ \BBA {} Paliwal%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Schuster:1997:BRN:2198065.2205129}
+\APACinsertmetastar {%
+Schuster:1997:BRN:2198065.2205129}%
+\begin{APACrefauthors}%
+Schuster, M.%
+\BCBT {}\ \BBA {} Paliwal, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bidirectional Recurrent Neural Networks} {Bidirectional
+  recurrent neural networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Trans. Sig. Proc.}{45}{11}{2673--2681}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/78.650093} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Silver%
+\ \protect \BOthers {.}}{%
+Silver%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Silver_2016}
+\APACinsertmetastar {%
+Silver_2016}%
+\begin{APACrefauthors}%
+Silver, D.%
+, Huang, A.%
+, Maddison, C\BPBI J.%
+, Guez, A.%
+, Sifre, L.%
+, van~den Driessche, G.%
+\BDBL {}Hassabis, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mastering the Game of {Go} with Deep Neural Networks and
+  Tree Search} {Mastering the game of {Go} with deep neural networks and tree
+  search}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature}{529}{7587}{484--489}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/nature16961} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Silver%
+\ \protect \BOthers {.}}{%
+Silver%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+alphagozero}
+\APACinsertmetastar {%
+alphagozero}%
+\begin{APACrefauthors}%
+Silver, D.%
+, Schrittwieser, J.%
+, Simonyan, K.%
+, Antonoglou, I.%
+, Huang, A.%
+, Guez, A.%
+\BDBL {}Hassabis, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{{\APACmonth{10}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mastering the game of Go without human knowledge}
+  {Mastering the game of go without human knowledge}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature}{550}{}{354}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Simonyan%
+\ \BBA {} Zisserman%
+}{%
+Simonyan%
+\ \BBA {} Zisserman%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+DBLP:journals/corr/SimonyanZ14a}
+\APACinsertmetastar {%
+DBLP:journals/corr/SimonyanZ14a}%
+\begin{APACrefauthors}%
+Simonyan, K.%
+\BCBT {}\ \BBA {} Zisserman, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Very Deep Convolutional Networks for Large-Scale Image
+  Recognition} {Very deep convolutional networks for large-scale image
+  recognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1409.1556}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sofi%
+, Mahajan%
+\BCBL {}\ \BBA {} Mansotra%
+}{%
+Sofi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+sofi_machine_nodate}
+\APACinsertmetastar {%
+sofi_machine_nodate}%
+\begin{APACrefauthors}%
+Sofi, I.%
+, Mahajan, A.%
+\BCBL {}\ \BBA {} Mansotra, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine {Learning} {Techniques} used for the {Detection}
+  and {Analysis} of {Modern} {Types} of {DDoS} {Attacks}} {Machine {Learning}
+  {Techniques} used for the {Detection} and {Analysis} of {Modern} {Types} of
+  {DDoS} {Attacks}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Research Journal of Engineering and
+  Technology}{04}{06}{8}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yu%
+}{%
+Yu%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Yu:2013:DDS:2556385}
+\APACinsertmetastar {%
+Yu:2013:DDS:2556385}%
+\begin{APACrefauthors}%
+Yu, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {Distributed Denial of Service Attack and Defense} {Distributed
+  denial of service attack and defense}.
+\newblock
+\APACaddressPublisher{}{Springer Publishing Company, Incorporated}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yuan%
+, Li%
+\BCBL {}\ \BBA {} Li%
+}{%
+Yuan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+yuan_deepdefense:_2017}
+\APACinsertmetastar {%
+yuan_deepdefense:_2017}%
+\begin{APACrefauthors}%
+Yuan, X.%
+, Li, C.%
+\BCBL {}\ \BBA {} Li, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{May}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{DeepDefense}: {Identifying} {DDoS} {Attack} via {Deep}
+  {Learning}} {{DeepDefense}: {Identifying} {DDoS} {Attack} via {Deep}
+  {Learning}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2017 {IEEE} {International} {Conference} on {Smart}
+  {Computing} ({SMARTCOMP})} {2017 {IEEE} {International} {Conference} on
+  {Smart} {Computing} ({SMARTCOMP})}\ (\BPGS\ 1--8).
+\newblock
+\APACaddressPublisher{Hong Kong, China}{IEEE}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/SMARTCOMP.2017.7946998} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

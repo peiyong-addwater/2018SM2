@@ -1,0 +1,9 @@
+1. Format and style of documentation is not very good.
+2. The sort method should be replaced the sort method in java standard libiary.
+3. Names of the varialbes is not very readable.
+4. Abstraction is not very good.
+5. The way you handle string of input cards in method evaluatedHand is not very good. Actually the input is an array of strings instead of just a string.
+6. In line 80: you can just call the methods for runs etc... instead of new a HandValue.
+7. Indentation is not very pretty.
+8. Method _15s is extremely unreadable
+9. Variable naming is not very good.

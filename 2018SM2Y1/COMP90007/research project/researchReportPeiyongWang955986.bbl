@@ -1,0 +1,88 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Chen%
+, Xue%
+, Shah%
+\BCBL {}\ \BBA {} Nahrstedt%
+}{%
+Chen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Chen:2004:UBP:2285778.2286085}
+\APACinsertmetastar {%
+Chen:2004:UBP:2285778.2286085}%
+\begin{APACrefauthors}%
+Chen, K.%
+, Xue, Y.%
+, Shah, S\BPBI H.%
+\BCBL {}\ \BBA {} Nahrstedt, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Understanding Bandwidth-delay Product in Mobile Ad Hoc
+  Networks} {Understanding bandwidth-delay product in mobile ad hoc
+  networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Comput. Commun.}{27}{10}{923--934}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.comcom.2004.01.020}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.comcom.2004.01.020} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jones%
+\ \BBA {} Smith%
+}{%
+Jones%
+\ \BBA {} Smith%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Smith:2013jd}
+\APACinsertmetastar {%
+Smith:2013jd}%
+\begin{APACrefauthors}%
+Jones, A\BPBI B.%
+\BCBT {}\ \BBA {} Smith, J\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{March}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A}rticle {T}itle} {{A}rticle {T}itle}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal title}{13}{52}{123-456}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Smith%
+\ \BBA {} Jones%
+}{%
+Smith%
+\ \BBA {} Jones%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Smith:2012qr}
+\APACinsertmetastar {%
+Smith:2012qr}%
+\begin{APACrefauthors}%
+Smith, J\BPBI M.%
+\BCBT {}\ \BBA {} Jones, A\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {{B}ook {T}itle} {{B}ook {T}itle}\ (\PrintOrdinal{7th}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Publisher}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

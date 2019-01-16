@@ -1,0 +1,386 @@
+Starting iperf
+-------------------------------------------
+iperf.he.net
+1st
+------------------------------------------------------------
+Client connecting to iperf.he.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49758 connected with 216.218.227.10 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  53.2 MBytes  44.6 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to iperf.he.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49764 connected with 216.218.227.10 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  53.5 MBytes  44.9 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to iperf.he.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49770 connected with 216.218.227.10 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  53.8 MBytes  45.0 Mbits/sec
+--------------------------------------------
+bouygues.testdebit.info
+1st
+Connecting to host bouygues.testdebit.info, port 5203
+[  7] local 10.160.13.55 port 49778 connected to 89.84.1.222 port 5203
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   141 KBytes  1.16 Mbits/sec                  
+[  7]   1.00-2.00   sec   201 KBytes  1.64 Mbits/sec                  
+[  7]   2.00-3.00   sec  1.43 MBytes  12.0 Mbits/sec                  
+[  7]   3.00-4.00   sec  3.05 MBytes  25.7 Mbits/sec                  
+[  7]   4.00-5.00   sec  3.54 MBytes  29.7 Mbits/sec                  
+[  7]   5.00-6.00   sec  3.04 MBytes  25.4 Mbits/sec                  
+[  7]   6.00-7.00   sec  3.24 MBytes  27.3 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.51 MBytes  29.4 Mbits/sec                  
+[  7]   8.00-9.00   sec  3.25 MBytes  27.2 Mbits/sec                  
+[  7]   9.00-10.00  sec  3.06 MBytes  25.7 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  24.4 MBytes  20.5 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  24.4 MBytes  20.5 Mbits/sec                  receiver
+
+iperf Done.
+2nd
+Connecting to host bouygues.testdebit.info, port 5203
+[  7] local 10.160.13.55 port 49786 connected to 89.84.1.222 port 5203
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   140 KBytes  1.15 Mbits/sec                  
+[  7]   1.00-2.00   sec   261 KBytes  2.14 Mbits/sec                  
+[  7]   2.00-3.00   sec  1.41 MBytes  11.9 Mbits/sec                  
+[  7]   3.00-4.00   sec  3.05 MBytes  25.6 Mbits/sec                  
+[  7]   4.00-5.00   sec  3.51 MBytes  29.4 Mbits/sec                  
+[  7]   5.00-6.00   sec  3.07 MBytes  25.7 Mbits/sec                  
+[  7]   6.00-7.00   sec  3.14 MBytes  26.4 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.49 MBytes  29.3 Mbits/sec                  
+[  7]   8.00-9.01   sec  3.36 MBytes  28.1 Mbits/sec                  
+[  7]   9.01-10.00  sec  3.04 MBytes  25.6 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  24.5 MBytes  20.5 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  24.5 MBytes  20.5 Mbits/sec                  receiver
+
+iperf Done.
+3rd
+Connecting to host bouygues.testdebit.info, port 5203
+[  7] local 10.160.13.55 port 49794 connected to 89.84.1.222 port 5203
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   141 KBytes  1.15 Mbits/sec                  
+[  7]   1.00-2.00   sec   205 KBytes  1.68 Mbits/sec                  
+[  7]   2.00-3.00   sec  1.36 MBytes  11.4 Mbits/sec                  
+[  7]   3.00-4.00   sec  2.92 MBytes  24.6 Mbits/sec                  
+[  7]   4.00-5.00   sec  3.53 MBytes  29.6 Mbits/sec                  
+[  7]   5.00-6.00   sec  3.00 MBytes  25.0 Mbits/sec                  
+[  7]   6.00-7.00   sec  3.18 MBytes  26.8 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.52 MBytes  29.5 Mbits/sec                  
+[  7]   8.00-9.00   sec  3.29 MBytes  27.5 Mbits/sec                  
+[  7]   9.00-10.00  sec  3.02 MBytes  25.4 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  24.2 MBytes  20.3 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  24.2 MBytes  20.3 Mbits/sec                  receiver
+
+iperf Done.
+--------------------------------------------
+ping.online.net
+1st
+Connecting to host ping.online.net, port 5201
+[  7] local 10.160.13.55 port 49802 connected to 62.210.18.40 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.01   sec   141 KBytes  1.15 Mbits/sec                  
+[  7]   1.01-2.01   sec   103 KBytes   842 Kbits/sec                  
+[  7]   2.01-3.01   sec   638 KBytes  5.23 Mbits/sec                  
+[  7]   3.01-4.00   sec  1.71 MBytes  14.4 Mbits/sec                  
+[  7]   4.00-5.00   sec  3.42 MBytes  28.7 Mbits/sec                  
+[  7]   5.00-6.00   sec  3.41 MBytes  28.6 Mbits/sec                  
+[  7]   6.00-7.00   sec  3.00 MBytes  25.1 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.38 MBytes  28.4 Mbits/sec                  
+[  7]   8.00-9.00   sec  3.59 MBytes  30.1 Mbits/sec                  
+[  7]   9.00-10.01  sec  3.03 MBytes  25.3 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.01  sec  22.4 MBytes  18.8 Mbits/sec                  sender
+[  7]   0.00-10.01  sec  22.4 MBytes  18.8 Mbits/sec                  receiver
+
+iperf Done.
+2nd
+Connecting to host ping.online.net, port 5201
+[  7] local 10.160.13.55 port 49808 connected to 62.210.18.40 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.01   sec   141 KBytes  1.15 Mbits/sec                  
+[  7]   1.01-2.00   sec   106 KBytes   867 Kbits/sec                  
+[  7]   2.00-3.00   sec   636 KBytes  5.21 Mbits/sec                  
+[  7]   3.00-4.00   sec  2.48 MBytes  20.9 Mbits/sec                  
+[  7]   4.00-5.01   sec  3.29 MBytes  27.5 Mbits/sec                  
+[  7]   5.01-6.01   sec  3.00 MBytes  25.2 Mbits/sec                  
+[  7]   6.01-7.00   sec  3.42 MBytes  28.8 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.51 MBytes  29.5 Mbits/sec                  
+[  7]   8.00-9.01   sec  3.07 MBytes  25.6 Mbits/sec                  
+[  7]   9.01-10.00  sec  3.31 MBytes  27.9 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  22.9 MBytes  19.2 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  22.9 MBytes  19.2 Mbits/sec                  receiver
+
+iperf Done.
+3rd
+Connecting to host ping.online.net, port 5201
+[  7] local 10.160.13.55 port 49814 connected to 62.210.18.40 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   141 KBytes  1.15 Mbits/sec                  
+[  7]   1.00-2.00   sec   103 KBytes   843 Kbits/sec                  
+[  7]   2.00-3.00   sec   558 KBytes  4.58 Mbits/sec                  
+[  7]   3.00-4.00   sec  2.49 MBytes  20.9 Mbits/sec                  
+[  7]   4.00-5.01   sec  3.21 MBytes  26.8 Mbits/sec                  
+[  7]   5.01-6.00   sec  3.02 MBytes  25.4 Mbits/sec                  
+[  7]   6.00-7.00   sec  3.56 MBytes  29.9 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.42 MBytes  28.6 Mbits/sec                  
+[  7]   8.00-9.00   sec  3.01 MBytes  25.4 Mbits/sec                  
+[  7]   9.00-10.00  sec  3.55 MBytes  29.8 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  23.1 MBytes  19.3 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  23.0 MBytes  19.3 Mbits/sec                  receiver
+
+iperf Done.
+--------------------------------------------
+st2.nn.ertelecom.ru
+1st
+------------------------------------------------------------
+Client connecting to st2.nn.ertelecom.ru, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49819 connected with 91.144.184.232 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  13.1 MBytes  10.9 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to st2.nn.ertelecom.ru, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49825 connected with 91.144.184.232 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  21.1 MBytes  17.6 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to st2.nn.ertelecom.ru, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49832 connected with 91.144.184.232 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  21.4 MBytes  17.9 Mbits/sec
+--------------------------------------------
+iperf.biznetnetworks.com
+1st
+Connecting to host iperf.biznetnetworks.com, port 5202
+[  7] local 10.160.13.55 port 49840 connected to 117.102.109.186 port 5202
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   157 KBytes  1.29 Mbits/sec                  
+[  7]   1.00-2.00   sec   699 KBytes  5.72 Mbits/sec                  
+[  7]   2.00-3.00   sec  3.16 MBytes  26.5 Mbits/sec                  
+[  7]   3.00-4.00   sec  4.74 MBytes  39.7 Mbits/sec                  
+[  7]   4.00-5.00   sec  4.79 MBytes  40.3 Mbits/sec                  
+[  7]   5.00-6.00   sec  4.62 MBytes  38.7 Mbits/sec                  
+[  7]   6.00-7.00   sec  4.67 MBytes  39.1 Mbits/sec                  
+[  7]   7.00-8.00   sec  4.79 MBytes  40.2 Mbits/sec                  
+[  7]   8.00-9.00   sec  4.63 MBytes  38.9 Mbits/sec                  
+[  7]   9.00-10.00  sec  4.73 MBytes  39.7 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  37.0 MBytes  31.0 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  37.0 MBytes  31.0 Mbits/sec                  receiver
+
+iperf Done.
+2nd
+Connecting to host iperf.biznetnetworks.com, port 5202
+[  7] local 10.160.13.55 port 49846 connected to 117.102.109.186 port 5202
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   157 KBytes  1.28 Mbits/sec                  
+[  7]   1.00-2.01   sec   813 KBytes  6.64 Mbits/sec                  
+[  7]   2.01-3.00   sec  2.94 MBytes  24.8 Mbits/sec                  
+[  7]   3.00-4.01   sec  4.79 MBytes  40.0 Mbits/sec                  
+[  7]   4.01-5.00   sec  4.74 MBytes  40.0 Mbits/sec                  
+[  7]   5.00-6.00   sec  4.60 MBytes  38.6 Mbits/sec                  
+[  7]   6.00-7.00   sec  4.68 MBytes  39.3 Mbits/sec                  
+[  7]   7.00-8.00   sec  4.73 MBytes  39.7 Mbits/sec                  
+[  7]   8.00-9.00   sec  4.67 MBytes  39.2 Mbits/sec                  
+[  7]   9.00-10.00  sec  4.70 MBytes  39.4 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  36.8 MBytes  30.9 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  36.8 MBytes  30.9 Mbits/sec                  receiver
+
+iperf Done.
+3rd
+Connecting to host iperf.biznetnetworks.com, port 5202
+[  7] local 10.160.13.55 port 49853 connected to 117.102.109.186 port 5202
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   157 KBytes  1.28 Mbits/sec                  
+[  7]   1.00-2.00   sec   788 KBytes  6.45 Mbits/sec                  
+[  7]   2.00-3.00   sec  3.00 MBytes  25.2 Mbits/sec                  
+[  7]   3.00-4.00   sec  4.80 MBytes  40.3 Mbits/sec                  
+[  7]   4.00-5.00   sec  4.57 MBytes  38.4 Mbits/sec                  
+[  7]   5.00-6.00   sec  4.74 MBytes  39.8 Mbits/sec                  
+[  7]   6.00-7.00   sec  4.71 MBytes  39.5 Mbits/sec                  
+[  7]   7.00-8.00   sec  4.64 MBytes  38.9 Mbits/sec                  
+[  7]   8.00-9.00   sec  4.77 MBytes  40.1 Mbits/sec                  
+[  7]   9.00-10.00  sec  4.65 MBytes  39.0 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  36.8 MBytes  30.9 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  36.8 MBytes  30.9 Mbits/sec                  receiver
+
+iperf Done.
+--------------------------------------------
+ping-90ms.online.net
+1st
+
+2nd
+3rd
+--------------------------------------------
+speedtest.serverius.net
+1st
+------------------------------------------------------------
+Client connecting to speedtest.serverius.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49863 connected with 178.21.16.76 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  23.0 MBytes  19.3 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to speedtest.serverius.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49869 connected with 178.21.16.76 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  23.1 MBytes  19.4 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to speedtest.serverius.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49875 connected with 178.21.16.76 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  23.1 MBytes  19.4 Mbits/sec
+--------------------------------------------
+bouygues.iperf.fr
+1st
+Connecting to host bouygues.iperf.fr, port 5201
+[  7] local 10.160.13.55 port 49884 connected to 89.84.1.222 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   141 KBytes  1.16 Mbits/sec                  
+[  7]   1.00-2.00   sec   245 KBytes  2.01 Mbits/sec                  
+[  7]   2.00-3.00   sec  1.42 MBytes  11.9 Mbits/sec                  
+[  7]   3.00-4.00   sec  2.92 MBytes  24.5 Mbits/sec                  
+[  7]   4.00-5.00   sec  3.44 MBytes  28.9 Mbits/sec                  
+[  7]   5.00-6.00   sec  2.85 MBytes  23.9 Mbits/sec                  
+[  7]   6.00-7.00   sec  3.24 MBytes  27.2 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.24 MBytes  27.2 Mbits/sec                  
+[  7]   8.00-9.00   sec  3.30 MBytes  27.7 Mbits/sec                  
+[  7]   9.00-10.00  sec  3.29 MBytes  27.6 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  24.1 MBytes  20.2 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  24.1 MBytes  20.2 Mbits/sec                  receiver
+
+iperf Done.
+2nd
+Connecting to host bouygues.iperf.fr, port 5201
+[  7] local 10.160.13.55 port 49891 connected to 89.84.1.222 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   141 KBytes  1.16 Mbits/sec                  
+[  7]   1.00-2.01   sec   260 KBytes  2.12 Mbits/sec                  
+[  7]   2.01-3.00   sec  1.45 MBytes  12.2 Mbits/sec                  
+[  7]   3.00-4.00   sec  3.09 MBytes  26.0 Mbits/sec                  
+[  7]   4.00-5.00   sec  3.55 MBytes  29.7 Mbits/sec                  
+[  7]   5.00-6.01   sec  3.04 MBytes  25.4 Mbits/sec                  
+[  7]   6.01-7.00   sec  3.13 MBytes  26.4 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.55 MBytes  29.8 Mbits/sec                  
+[  7]   8.00-9.00   sec  3.32 MBytes  27.7 Mbits/sec                  
+[  7]   9.00-10.00  sec  3.02 MBytes  25.4 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  24.5 MBytes  20.6 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  24.5 MBytes  20.6 Mbits/sec                  receiver
+
+iperf Done.
+3rd
+Connecting to host bouygues.iperf.fr, port 5201
+[  7] local 10.160.13.55 port 49898 connected to 89.84.1.222 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.01   sec   141 KBytes  1.15 Mbits/sec                  
+[  7]   1.01-2.00   sec   269 KBytes  2.22 Mbits/sec                  
+[  7]   2.00-3.01   sec  1.44 MBytes  12.0 Mbits/sec                  
+[  7]   3.01-4.00   sec  3.12 MBytes  26.3 Mbits/sec                  
+[  7]   4.00-5.00   sec  3.54 MBytes  29.7 Mbits/sec                  
+[  7]   5.00-6.00   sec  3.00 MBytes  25.1 Mbits/sec                  
+[  7]   6.00-7.00   sec  3.21 MBytes  27.0 Mbits/sec                  
+[  7]   7.00-8.00   sec  3.55 MBytes  29.8 Mbits/sec                  
+[  7]   8.00-9.01   sec  3.24 MBytes  27.0 Mbits/sec                  
+[  7]   9.01-10.00  sec  3.14 MBytes  26.4 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.00  sec  24.6 MBytes  20.7 Mbits/sec                  sender
+[  7]   0.00-10.00  sec  24.6 MBytes  20.7 Mbits/sec                  receiver
+
+iperf Done.
+ -------------------------------------------- 
+iperf.volia.net
+1st
+------------------------------------------------------------
+Client connecting to iperf.volia.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49905 connected with 82.144.193.18 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.2 sec  22.4 MBytes  18.5 Mbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to iperf.volia.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49910 connected with 82.144.193.18 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.1 sec  22.6 MBytes  18.8 Mbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to iperf.volia.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49916 connected with 82.144.193.18 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  22.0 MBytes  18.4 Mbits/sec
+--------------------------------------------
+iperf.it-north.net
+1st
+------------------------------------------------------------
+Client connecting to iperf.it-north.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49925 connected with 82.200.209.194 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-11.0 sec   512 KBytes   382 Kbits/sec
+2nd
+------------------------------------------------------------
+Client connecting to iperf.it-north.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49932 connected with 82.200.209.194 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-11.1 sec   384 KBytes   284 Kbits/sec
+3rd
+------------------------------------------------------------
+Client connecting to iperf.it-north.net, TCP port 5001
+TCP window size:  129 KByte (default)
+------------------------------------------------------------
+[  6] local 10.160.13.55 port 49940 connected with 82.200.209.194 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.8 sec   640 KBytes   485 Kbits/sec
+--------------------------------------------
